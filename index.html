@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOTE.IT | The new way of noting down</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="icon" href="favicon.jpg">
+<body>
+    <div class="head-wrap">
+        <h1 class="header">NOTE.IT</h1>
+        <hr class="mystyle">
+        <p class="lead" style="font-weight: 400;">Create Notes The Simple Way!</p>
+        <a href="#jump" class="btn btn-danger">Get Started</a>
+    </div>
+
+    <div class="add-task">
+        <div class="row">
+            <div class="card mx-auto card-one shadow-lg"  id="jump">
+                <div class="card-body">
+                    <h2 class="card-title">Add a Note</h2>
+                    <hr class="mystyle1">
+                    <form class="form">
+                        <textarea class="text" rows="10"></textarea><br>
+                        <div class="justify-content-center mx auto links">
+                            <a href="#" onclick="return false;" class="btn btn-primary add">ADD</a>
+                            <a href="#" onclick="return false;" class="btn btn-danger clear">CLEAR</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Added Notes-->
+
+    <div class="notes-collection text-center">
+        <input type="text" class="filterInput" placeholder="Type here to find your note"><br>
+        <!-- <button type="button" class="btn btn-success filter" id="filter1">FILTER</button> -->
+        <div class="row justify-content-center row1"></div>
+        <button type="button" class="btn btn-warning delete-all">DELETE ALL</button>
+    </div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.0/cjs/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"   crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+</head>
+</body>
+</html>
